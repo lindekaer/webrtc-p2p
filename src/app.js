@@ -24,7 +24,6 @@ peer2.on('data', function (data) {
   // got a data channel message
   console.log('got a message from peer1: ' + data)
 })
-
 // var p = new Peer({ initiator: window.location.hash === '#1', trickle: false })
 //
 // p.on('error', (err) => console.log('error', err))

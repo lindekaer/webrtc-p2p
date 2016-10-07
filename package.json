@@ -20,8 +20,7 @@
   },
   "babel": {
     "presets": [
-      "es2015",
-      "stage-0"
+      "es2015"
     ]
   },
   "homepage": "https://github.com/lindekaer/webrtc-p2p#readme",
@@ -29,7 +28,6 @@
     "babel-core": "6.17.0",
     "babel-eslint": "7.0.0",
     "babel-preset-es2015": "6.16.0",
-    "babel-preset-stage-0": "6.16.0",
     "babelify": "7.3.0",
     "browserify": "13.1.0",
     "standard": "8.3.0",

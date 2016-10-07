@@ -1,0 +1,33 @@
+{
+  "name": "webrtc-p2p-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Theodor C. Listov Lindekaer <theodor.lindekaer@gmail.com> (https://lindekaer.github.io)",
+  "license": "ISC",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node",
+      "stage-0"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "6.14.0",
+    "babel-eslint": "7.0.0",
+    "babel-preset-es2015-node": "6.1.1",
+    "babel-preset-stage-0": "6.5.0",
+    "express": "4.14.0",
+    "socket.io": "1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0",
+    "standard": "8.3.0"
+  }
+}
